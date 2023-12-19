@@ -1,0 +1,294 @@
+@media screen and (max-width: 600px) {
+  .socials {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 1000;
+  }
+  .socials a {
+    text-decoration: none;
+  }
+  header {
+    padding-left: 0px;
+    /* padding-right: 16px; */
+    background-position: bottom;
+    padding-top: 0;
+  }
+  header nav {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  /* .topnav li:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  } */
+  .lighter-div .exp {
+    margin-left: 16px;
+  }
+  .contact {
+    display: block;
+  }
+  .contact-card {
+    margin-top: 12px;
+  }
+  .skills {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .skills .skill-card {
+    width: 25vw;
+    height: 25vw;
+    padding: 10px;
+  }
+  .skills h2 {
+    display: none;
+  }
+
+  .skill-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .about {
+    height: 100%;
+  }
+  .about .description {
+    display: inline;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+  .about .description p {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .lighter-div {
+    padding: 16px;
+  }
+  .experience h1,
+  .about h1,
+  .skills h1,
+  .portfolio h1,
+  .contact-me h1 {
+    font-size: 36px;
+  }
+  .experience h2,
+  .about h2,
+  .skills h2,
+  .portfolio h2,
+  .contact-me h2 {
+    font-size: 24px;
+  }
+  .experience h3,
+  .about h3,
+  .skills h3,
+  .portfolio h3,
+  .contact-me h3 {
+    font-size: 16px;
+  }
+  .experience p,
+  .about p,
+  .skills p,
+  .portfolio p,
+  .contact-me p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .about .line,
+  .experience .line,
+  .about .line,
+  .skills .line,
+  .portfolio .line,
+  .contact-me .line {
+    width: 100%;
+    height: 2.5px;
+    background-color: #fec86a;
+    margin-right: 32px;
+  }
+  .lighter-div .exp {
+    width: 95%;
+    padding-left: 12px;
+  }
+  .exp h2::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    color: #fec86a;
+    background-color: #fec86a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 12.5%;
+    left: -4%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #fec86a;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  .portfolio,
+  .skills,
+  .about {
+    padding: 50px 16px;
+    align-items: unset;
+    text-align: center;
+  }
+  .portfolio .line,
+  .about .line,
+  .skills .line {
+    margin-top: 16px;
+  }
+  .exp h2::before {
+    top: 6.6%;
+  }
+  .exp-desc::before {
+    height: 80% !important;
+    transform: translate(-50%, -64%);
+    -webkit-transform: translate(-50%, -64%);
+    -moz-transform: translate(-50%, -64%);
+    -ms-transform: translate(-50%, -64%);
+    -o-transform: translate(-50%, -64%);
+    -webkit-transform: translate(-50%, -64%);
+  }
+  .contact-me {
+    padding: 32px;
+    text-align: center;
+  }
+  .contact {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .socials {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 1000;
+  }
+  .socials a {
+    text-decoration: none;
+  }
+  header {
+    padding-left: 0px;
+    /* padding-right: 16px; */
+    background-position: bottom;
+    padding-top: 0;
+  }
+  header nav {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  /* .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive ul,
+  .topnav.responsive ul {
+    float: none;
+    display: block;
+    text-align: left;
+  } */
+  .experience h1,
+  .about h1,
+  .skills h1,
+  .portfolio h1,
+  .contact-me h1 {
+    font-size: 36px;
+  }
+  .experience h2,
+  .about h2,
+  .skills h2,
+  .portfolio h2,
+  .contact-me h2 {
+    font-size: 24px;
+  }
+  .experience h3,
+  .about h3,
+  .skills h3,
+  .portfolio h3,
+  .contact-me h3 {
+    font-size: 20px;
+  }
+  .experience p,
+  .about p,
+  .skills p,
+  .portfolio p,
+  .contact-me p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .about .line,
+  .experience .line,
+  .about .line,
+  .skills .line,
+  .portfolio .line,
+  .contact-me .line {
+    width: 100%;
+    height: 2.5px;
+    background-color: #fec86a;
+    margin-right: 32px;
+  }
+
+  .lighter-div .exp {
+    margin-left: 16px;
+  }
+  .contact {
+    display: block;
+  }
+  .contact-card {
+    margin-top: 12px;
+  }
+  .skills {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .skills .skill-card {
+    width: 25vw;
+    height: 25vw;
+    padding: 10px;
+  }
+  .skill-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .about {
+    height: 50vh;
+    width: 100vw;
+    padding: 30px;
+    text-align: center;
+  }
+  .about .description {
+    display: inline;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+  .about {
+    height: 100%;
+  }
+  .about .description p {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .about .description .line {
+    width: 100%;
+  }
+  .lighter-div {
+    padding: 16px;
+  }
+  .lighter-div .exp {
+    width: 95%;
+  }
+}
